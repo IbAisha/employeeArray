@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+      
+      <h1 class="col-sm-12 text-center">Formulaire d'inscription</h1>
+        <form action="">
+          <fieldset>
+            <input class="col-sm-3 form-control mb-3" type="text" id="lname" name="lname" placeholder="Nom">
+            <input class="col-sm-3  form-control mb-3"  type="text" id="fname" name="fname" placeholder="Prenom">
+          </fieldset>
+          <fieldset>
+          <input class="col-sm-5 form-control mb-3" type="text" id="address" name="address" placeholder="Adresse"> 
+          <input class="col-sm-2 form-control mb-3" type="date" id="birthday" name="birthday" placeholder="Date de naissance">
+        </fieldset>
+        <fieldset>
+          <input class="col-sm-4 form-control mb-3"  type="text" id="email" name ="email" placeholder="Email">
+          <input class ="col-sm-4 form-control mb-3" type="password" name="mdp" placeholder="Mot de passe">
+        </fieldset>
+
+    
+        
+        <button class="col-sm-2"  id="addBtn">Valider</button>
+    </form>
+
+    </div>
+    
+    <div class="container">
+      <table class="table table-striped">
+        <thead>
+          <tr id="title">
+
+            <th scope="col">Avatar</th>
+
+            <th scope="col">Name</th>
+
+            <th scope="col">Age</th>
+          </tr>
+        </thead>
+
+        <tbody id="tableau">
+          
+
+        </tbody>
+      </table>
+    </div>
+
+    <img src="" alt="" width="28">
+    
+    
+    <script src="./main.js"></script>
+</body>
+</html>
